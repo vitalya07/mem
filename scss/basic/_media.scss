@@ -1,0 +1,174 @@
+@media(max-width: 997px) {
+    .container {
+        max-width: 769px;
+    }
+    .header {
+        &__wrapper {
+            width: 670px;
+        }
+        &__logo {
+            width: 135px;
+            height: 15px;
+        }       
+        &__nav {
+            display: none;
+        }
+        &__more {
+            display: none;
+        }
+        &__btn {
+            width: 90px;
+            height: 30px;
+            font-size: 16px;
+            margin-left: 280px;
+        }
+    }
+    .hamburger {
+        display: flex;
+    }
+    .main {
+        padding-top: 50px;
+        &__title {
+            font-size: 40px;
+            line-height: 50px;
+            margin-bottom: 200px;
+        }
+        &__img {
+            width: 400px;
+            height: 300px;
+        }
+    }
+    .slider {
+        &__item {
+            width: 120px;
+            &:last-child {
+                width: 100px;
+            }
+            &-img {
+                width: 90px;
+                height: 90px;
+            }
+            &-text {
+                margin-left: 20px;
+                font-size: 20px;
+            }
+        }
+    }
+    .debitCart {
+        &__title {
+            width: 780px;
+            font-size: 60px;
+            line-height: 30px;
+        }
+    }
+}
+@media(max-width: 760px) {
+    .container {
+        max-width: 556px;
+    }
+    .header {
+        &__wrapper {
+            width: 400px;
+            padding: 7px 10px;
+        }     
+        &__btn {
+            margin-left: 100px;
+        }
+    }
+    .main {
+        padding-top: 10px;
+        &__title {
+            font-size: 30px;
+            line-height: 35px;
+            margin-bottom: 100px;
+        }
+        &__img {
+            width: 300px;
+            height: 200px;
+        }
+        &__btn {
+            width: 200px;
+            height: 50px;
+            font-size: 16px;
+            line-height: 18px;
+        }
+        &__input {
+            width: 400px;
+            flex-direction: column;
+            align-items:start;
+            padding: 5px;
+            &-symbol {
+                align-self: center;
+            }
+            &-link {
+                width: 200px;
+            }
+            &-copy {
+                width: 200px;
+                height: 40px;
+                align-self: center;
+            }
+        }
+    }
+    .allLocation {
+        &__title {
+            line-height: 30px;
+        }
+        &__box-img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .debitCart {
+        &__title {
+            width: 600px;
+            font-size: 40px;
+            line-height: 20px;
+        }
+    }
+    .contactAddress {
+        &__title {
+            font-size: 40px;
+            line-height: 50px;
+        }
+        &__box {
+            flex-direction: column;
+            gap: 30px;
+        }
+    }
+}
+@media(max-width: 550px) {
+    .main {
+        &__container {
+            padding: 10px 20px;
+        }
+        &__wrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        }
+        &__title {
+            margin-bottom: 20px;
+        }
+        &__img {
+            width: 100%;
+        }
+    }
+    .slider {
+        &__item {
+            width: 150px;
+            &:last-child {
+                width: 100px;
+            }
+            &-img {
+                width: 90px;
+                height: 90px;
+            }
+            &-text {
+                margin-left: 20px;
+                font-size: 20px;
+            }
+        }
+    }
+}

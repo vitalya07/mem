@@ -1,0 +1,56 @@
+.crypto {
+    background-color: #070735;
+    padding: 50px 0 50px 0;
+    &__wrapper {
+        border: 1px solid var(--base-color-neutral--white);
+        background-color: #101058;
+        background-image: url(../images/Grain_Latest.png), radial-gradient(circle at 100%, #000030f7 25%, #fff0), url(../images/trump-silhouette.png);
+        background-position: 0 0, 0 0, 0 0;
+        background-size: 300px, auto, 150px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-wrap: wrap;
+        padding: 4rem;
+        border: 2px solid #fff;
+    }
+    &__left {
+        max-width: 490px;
+        &-title {
+            font-size: 50px;
+            text-transform: uppercase;
+            color: #fff;
+            max-width: 350px;
+        }
+        &-subtitle {
+            max-width: 100%;
+            font-size: 50px;
+            color: #b30c0c;
+            margin-bottom: 30px;
+        }
+        &-img {
+            max-width: 100%;
+            height: 715px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    &__right {
+        max-width: 500px;
+        &-title {
+            font-size: 50px;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+        &-descr {
+            color: #fff;
+            font-size: 30px;
+            line-height: 35px;
+            margin-bottom: 30px;
+        }
+    }
+}
