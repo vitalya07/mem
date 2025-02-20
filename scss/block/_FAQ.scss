@@ -1,0 +1,73 @@
+.FAQ {
+    padding: 100px 0;
+    &__title {
+        color: #070735;
+        -webkit-text-fill-color: transparent;
+        background-image: url(../images/intothe-rainbow-9.svg);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-family: neue-haas-grotesk-display, sans-serif;
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+        text-align: center;
+        max-width: 540px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+    &__box {
+        position: relative;
+        transition: all .4s;
+        margin-bottom: 30px;
+       
+        &.active {
+            margin-bottom: 80px;
+            .FAQ__response {
+                top: 80px;
+                &-first {
+                    top: 70px;
+                }
+            }
+            .FAQ__item-img {
+                transform: rotate(45deg);
+            }
+        }
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 150px;
+        position: relative;
+        z-index: 3;
+        background-color: #fff;
+        max-width: 81%;
+        height: 60px;
+        cursor: pointer;
+        &-title {
+            color: #070735;
+            font-family: neue-haas-grotesk-display, sans-serif;
+            font-size: 1.7rem;
+        }
+        &-img {
+            width: 15px;
+            height: 15px;
+            transition: all .4s;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    &__response {
+        transition: all .4s;
+        position: absolute;
+        top: -2px;
+        left: 0;
+        max-width: 81%;
+    }
+}

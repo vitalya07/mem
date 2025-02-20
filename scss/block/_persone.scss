@@ -1,0 +1,47 @@
+.persone {
+    background-color: #070711;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    &__box {
+        background-image: radial-gradient(circle, #000 38%, #fff0), url(../images/Community5_1Community5.webp), linear-gradient(#070733e6, #070733e6), url(../images/stars-stripes-2_1stars-stripes-2.webp);
+        background-position: start;
+        background-size:1200px;       
+        margin-bottom: 100px; 
+    }
+    &__img {
+        width: 800px;
+        height: 599px;
+        margin: 0 auto;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__title {
+        font-family: neue-haas-grotesk-display, sans-serif;
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 4rem;
+        color: #fff;
+        text-align: center;
+    }
+    &__subtitle {
+        border: 4px none #fff;;
+        color: #c41220;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 6rem;
+        line-height: 10rem;
+        font-family: neue-haas-grotesk-display, sans-serif;
+        text-align: center;
+    }
+    &__text {
+        font-family: neue-haas-grotesk-display, sans-serif;
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 4rem;
+        color: #fff;
+        text-align: center;
+    }
+}

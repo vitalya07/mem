@@ -1,0 +1,76 @@
+.footer {
+    background-color: #030327;
+    padding: 50px 0 50px 0;
+    &__logo {
+        width: 200px;
+        height: 22px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__X {
+        display: block;
+        margin: 0 auto;
+        width: 48px;
+        height: 48px;
+        margin-bottom: 20px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 50px;
+        &-link {
+            text-align: center;
+            font-family: neue-haas-grotesk-text, sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            text-decoration: none;
+            color: #fff;
+        }        
+    }
+    &__information {
+        color: #fff;
+        font-family: neue-haas-grotesk-display, sans-serif;
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 30px;
+       &-last {
+        margin-bottom: 80px;
+       }
+    }
+    &__end {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-copy {
+            font-family: neue-haas-grotesk-text, sans-serif;
+            font-size: .875rem;
+            color: #fff;
+        }
+        &-links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+           
+        }
+        &-link {
+            font-family: neue-haas-grotesk-text, sans-serif;
+            font-size: .875rem;
+            text-decoration: underline;
+            color: #fff;
+        }
+    }
+}
